@@ -1,0 +1,79 @@
+body {
+    align-content: center;
+    text-align: center;
+    background-color: pink;
+    /* background-image: linear-gradient(#eae8dd,
+            #de158b) */
+}
+
+fieldset {
+    background-color: blanchedalmond;
+    width: 60%;
+    /* background: rgba(4, 0, 255, 0.1); */
+}
+
+.parentElement1 {
+    background-color: rgb(130, 160, 86);
+    height: 180px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 5px 5px rgb(19, 3, 12);
+
+}
+
+.parentElement2 {
+    background-color: rgb(130, 160, 86);
+    height: 180px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 5px 5px rgb(19, 3, 12);
+}
+
+.parentElement3 {
+    background-color: rgb(130, 160, 86);
+    height: 180px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 5px 5px rgb(19, 3, 12);
+}
+
+#hi {
+    animation-name: hii;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hii {
+    from {
+        color: white;
+    }
+
+    to {
+        color: red;
+    }
+}
+
+#hii {
+    color: rgb(19, 1, 12);
+    background-color: greenyellow;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.parentElement1:hover {
+    background-color: rgb(228, 8, 30);
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+
+.parentElement2:hover {
+    background-color: rgb(228, 8, 30);
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+
+.parentElement3:hover {
+    background-color: rgb(228, 8, 30);
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
